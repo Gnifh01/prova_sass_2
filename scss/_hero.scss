@@ -1,0 +1,33 @@
+section {
+  width: 100%;
+  height: 80vh;
+
+  .img-container {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+
+    img {
+      @include dinamicBackgroudUrl(2);
+    }
+  }
+
+  .title-container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    place-items: center;
+    transform: translate(-50%, -50%);
+
+    h1 {
+      color: #fff;
+      font-size: 7rem;
+      font-weight: lighter;
+
+      span {
+        font-weight: bold
+      }
+    }
+  }
+}

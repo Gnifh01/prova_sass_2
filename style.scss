@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html { font-size: 10px; }
+
+/* MIXINS */
+@import './scss/mixin';
+
+/* PARTIALS */
+@import './scss/font';
+@import './scss/nav';
+@import './scss/hero';
+@import './scss/footer';

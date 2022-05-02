@@ -1,0 +1,26 @@
+header {
+  width: 100%;
+  height: 10vh;
+  @include flexCenter;
+  text-align: center;
+  background-color: transparent;
+  position: fixed;
+  z-index: 2;
+
+  ul {
+    @include flexCenter;
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        margin: 0rem 2rem;
+      }
+    }
+  }
+}
